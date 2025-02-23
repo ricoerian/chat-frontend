@@ -78,7 +78,7 @@ const Chat = () => {
     <div className="flex flex-col items-center justify-center h-screen bg-gray-100 p-6">
       <div className="bg-white shadow-lg rounded-2xl p-4 w-full max-w-6xl">
         <div className="flex justify-between items-center mb-4">
-          <h2 className="text-2xl font-semibold text-gray-800">Chat Room</h2>
+          <h2 className="text-2xl font-semibold text-gray-800">Global Chat Room</h2>
           <button
             className="bg-red-500 text-white px-3 py-2 rounded-lg hover:bg-red-600 transition cursor-pointer"
             onClick={handleLogout}
