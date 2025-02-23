@@ -4,7 +4,7 @@ This is the frontend of a real-time public chat application built using React, V
 
 ## 🚀 Features
 - 🌐 Real-time messaging with WebSockets
-- 🎨 Modern UI with TailwindCSS and Ant Design
+- 🎨 Modern UI with TailwindCSS
 - 🔐 User authentication (Login/Register)
 - 💬 Public chat rooms
 - 🌓 Light/Dark mode support (coming soon)
