@@ -24,7 +24,7 @@ const Chat = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8080/messages")
+      .get("https://chat-backend-production-6900.up.railway.app/messages")
       .then((response) => {
         setMessages(response.data.messages || []);
       })

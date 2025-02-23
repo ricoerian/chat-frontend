@@ -6,7 +6,7 @@ export const connectWebSocket = () => {
     return socket;
   }
 
-  socket = new WebSocket("ws://127.0.0.1:8080/ws");
+  socket = new WebSocket("ws://chat-backend-production-6900.up.railway.app/ws");
 
   socket.onopen = () => console.log("WebSocket Connected");
   socket.onclose = () => console.log("WebSocket Disconnected");

@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8080";
+const API_URL = "https://chat-backend-production-6900.up.railway.app";
 
 export const register = async (username: string, password: string) => {
   return await axios.post(`${API_URL}/register`, { username, password });
