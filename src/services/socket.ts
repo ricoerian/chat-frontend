@@ -6,7 +6,10 @@ export const connectWebSocket = () => {
     return socket;
   }
 
-  socket = new WebSocket("ws://chat-backend-production-6900.up.railway.app/ws");
+  const wsProtocol = window.location.protocol === "https:" ? "wss" : "ws";
+  const wsUrl = `${wsProtocol}://chat-backend-production-6900.up.railway.app/ws`;
+
+  socket = new WebSocket(wsUrl);
 
   socket.onopen = () => console.log("WebSocket Connected");
   socket.onclose = () => console.log("WebSocket Disconnected");
